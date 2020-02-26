@@ -10,11 +10,18 @@
 		854828C12406CFE900D2F635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828C02406CFE900D2F635 /* AppDelegate.swift */; };
 		854828C32406CFE900D2F635 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828C22406CFE900D2F635 /* SceneDelegate.swift */; };
 		854828C52406CFE900D2F635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828C42406CFE900D2F635 /* ViewController.swift */; };
-		854828C82406CFE900D2F635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854828C62406CFE900D2F635 /* Main.storyboard */; };
 		854828CA2406CFEA00D2F635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854828C92406CFEA00D2F635 /* Assets.xcassets */; };
 		854828CD2406CFEA00D2F635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854828CB2406CFEA00D2F635 /* LaunchScreen.storyboard */; };
 		854828D82406CFEA00D2F635 /* SevInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828D72406CFEA00D2F635 /* SevInfoTests.swift */; };
 		854828E32406CFEA00D2F635 /* SevInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828E22406CFEA00D2F635 /* SevInfoUITests.swift */; };
+		854828F12406D8DC00D2F635 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828F02406D8DC00D2F635 /* TabBarController.swift */; };
+		854828F42406DA4A00D2F635 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828F32406DA4A00D2F635 /* ListVC.swift */; };
+		854828F62406DA7300D2F635 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828F52406DA7300D2F635 /* CameraVC.swift */; };
+		854828F82406DA9000D2F635 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828F72406DA9000D2F635 /* SettingsVC.swift */; };
+		854828FA2406DAA000D2F635 /* AboutCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828F92406DAA000D2F635 /* AboutCityVC.swift */; };
+		854828FC2406DACF00D2F635 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828FB2406DACF00D2F635 /* MapVC.swift */; };
+		854828FF2406DAFB00D2F635 /* Extensions+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854828FE2406DAFB00D2F635 /* Extensions+UIViewController.swift */; };
+		854829052406EDDA00D2F635 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 854829042406EDDA00D2F635 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,6 @@
 		854828C02406CFE900D2F635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		854828C22406CFE900D2F635 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		854828C42406CFE900D2F635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		854828C72406CFE900D2F635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		854828C92406CFEA00D2F635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		854828CC2406CFEA00D2F635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		854828CE2406CFEA00D2F635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		854828DE2406CFEA00D2F635 /* SevInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		854828E22406CFEA00D2F635 /* SevInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevInfoUITests.swift; sourceTree = "<group>"; };
 		854828E42406CFEA00D2F635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854828F02406D8DC00D2F635 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		854828F32406DA4A00D2F635 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		854828F52406DA7300D2F635 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		854828F72406DA9000D2F635 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		854828F92406DAA000D2F635 /* AboutCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCityVC.swift; sourceTree = "<group>"; };
+		854828FB2406DACF00D2F635 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		854828FE2406DAFB00D2F635 /* Extensions+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIViewController.swift"; sourceTree = "<group>"; };
+		854829042406EDDA00D2F635 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,7 @@
 		854828B42406CFE900D2F635 = {
 			isa = PBXGroup;
 			children = (
+				854829042406EDDA00D2F635 /* Default-568h@2x.png */,
 				854828BF2406CFE900D2F635 /* SevInfo */,
 				854828D62406CFEA00D2F635 /* SevInfoTests */,
 				854828E12406CFEA00D2F635 /* SevInfoUITests */,
@@ -99,13 +114,10 @@
 		854828BF2406CFE900D2F635 /* SevInfo */ = {
 			isa = PBXGroup;
 			children = (
-				854828C02406CFE900D2F635 /* AppDelegate.swift */,
-				854828C22406CFE900D2F635 /* SceneDelegate.swift */,
-				854828C42406CFE900D2F635 /* ViewController.swift */,
-				854828C62406CFE900D2F635 /* Main.storyboard */,
-				854828C92406CFEA00D2F635 /* Assets.xcassets */,
-				854828CB2406CFEA00D2F635 /* LaunchScreen.storyboard */,
-				854828CE2406CFEA00D2F635 /* Info.plist */,
+				854829002406ECB100D2F635 /* Protocols */,
+				854828FD2406DAD600D2F635 /* Extensions */,
+				854828F22406DA1400D2F635 /* Screens */,
+				854829012406ECCD00D2F635 /* Sources */,
 			);
 			path = SevInfo;
 			sourceTree = "<group>";
@@ -126,6 +138,47 @@
 				854828E42406CFEA00D2F635 /* Info.plist */,
 			);
 			path = SevInfoUITests;
+			sourceTree = "<group>";
+		};
+		854828F22406DA1400D2F635 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				854828F32406DA4A00D2F635 /* ListVC.swift */,
+				854828F52406DA7300D2F635 /* CameraVC.swift */,
+				854828F72406DA9000D2F635 /* SettingsVC.swift */,
+				854828F92406DAA000D2F635 /* AboutCityVC.swift */,
+				854828FB2406DACF00D2F635 /* MapVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		854828FD2406DAD600D2F635 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				854828FE2406DAFB00D2F635 /* Extensions+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		854829002406ECB100D2F635 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		854829012406ECCD00D2F635 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				854828F02406D8DC00D2F635 /* TabBarController.swift */,
+				854828C02406CFE900D2F635 /* AppDelegate.swift */,
+				854828C22406CFE900D2F635 /* SceneDelegate.swift */,
+				854828C42406CFE900D2F635 /* ViewController.swift */,
+				854828C92406CFEA00D2F635 /* Assets.xcassets */,
+				854828CB2406CFEA00D2F635 /* LaunchScreen.storyboard */,
+				854828CE2406CFEA00D2F635 /* Info.plist */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +287,7 @@
 			files = (
 				854828CD2406CFEA00D2F635 /* LaunchScreen.storyboard in Resources */,
 				854828CA2406CFEA00D2F635 /* Assets.xcassets in Resources */,
-				854828C82406CFE900D2F635 /* Main.storyboard in Resources */,
+				854829052406EDDA00D2F635 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +313,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				854828C52406CFE900D2F635 /* ViewController.swift in Sources */,
+				854828FA2406DAA000D2F635 /* AboutCityVC.swift in Sources */,
+				854828FF2406DAFB00D2F635 /* Extensions+UIViewController.swift in Sources */,
+				854828F62406DA7300D2F635 /* CameraVC.swift in Sources */,
+				854828F42406DA4A00D2F635 /* ListVC.swift in Sources */,
+				854828F12406D8DC00D2F635 /* TabBarController.swift in Sources */,
 				854828C12406CFE900D2F635 /* AppDelegate.swift in Sources */,
 				854828C32406CFE900D2F635 /* SceneDelegate.swift in Sources */,
+				854828FC2406DACF00D2F635 /* MapVC.swift in Sources */,
+				854828F82406DA9000D2F635 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		854828C62406CFE900D2F635 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				854828C72406CFE900D2F635 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		854828CB2406CFEA00D2F635 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,7 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 523XWQ22UQ;
-				INFOPLIST_FILE = SevInfo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SevInfo/Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +496,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = st.com.SevInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,7 +506,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 523XWQ22UQ;
-				INFOPLIST_FILE = SevInfo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SevInfo/Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +514,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = st.com.SevInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
